@@ -1,4 +1,4 @@
-if [ $# -lt 2 ]
+if [ $# -lt 1 ]
   then
     echo ""
     echo "Usage: bash adduser.sh userfile contest_id"
