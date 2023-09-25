@@ -20,5 +20,4 @@ do
  IFS=','
  read -ra Arr <<< $line
  /usr/local/bin/cmsAddUser -e ${Arr[4]} -t ${Arr[5]} -p ${Arr[1]} ${Arr[2]} ${Arr[3]} ${Arr[0]}
- /usr/local/bin/cmsAddParticipation -c $2 ${Arr[0]}
 done < $1
