@@ -1,8 +1,8 @@
 if [ $# -lt 2 ]
   then
     echo ""
-    echo "Usage: bash adduser.sh userfile contest_id"
-    echo "example: bash adduser.sh userlist.txt 12"
+    echo "Usage: bash addparticipation.sh userfile contest_id"
+    echo "example: bash addparticipation.sh userlist.txt 12"
     echo ""
     echo "deail:"
     echo "userifle : textfile of userformat"
